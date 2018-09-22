@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_tree_list_view_node_same_level_add"
+        android:orderInCategory="10"
+        android:title="添加节点"
+        app:showAsAction="ifRoom|never" />
+
+    <item
+        android:id="@+id/menu_tree_list_view_node_sub_level_add"
+        android:orderInCategory="20"
+        android:title="添加子节点"
+        app:showAsAction="ifRoom|never" />
+
+    <item
+        android:id="@+id/menu_tree_list_view_node_delete"
+        android:orderInCategory="30"
+        android:title="删除节点"
+        app:showAsAction="ifRoom|never" />
+
+</menu>
